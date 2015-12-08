@@ -14,7 +14,9 @@
 						</div>
 					</div>
 					<ul class="list-group">
+						<!-- IF !picture:disableEdit -->
 						<a id="changePictureBtn" href="#" class="list-group-item">[[user:change_picture]]</a>
+						<!-- ENDIF !picture:disableEdit -->
 						<!-- IF !username:disableEdit -->
 						<a href="{config.relative_path}/user/{userslug}/edit/username" class="list-group-item">[[user:change_username]]</a>
 						<!-- ENDIF !username:disableEdit -->
